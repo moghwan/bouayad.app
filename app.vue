@@ -17,10 +17,6 @@
 </template>
 
 <script>
-import WebIcon from '@/assets/svg/web.vue';
-import FirefoxIcon from '@/assets/svg/browser-firefox.vue';
-import EdgeIcon from '@/assets/svg/browser-edge.vue';
-import ChromeIcon from '@/assets/svg/browser-chrome.vue';
 
 export default {
   setup() {
