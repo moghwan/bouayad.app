@@ -5,10 +5,6 @@
         <p class="ff-arabic-style text-7xl text-gray-900 dark:text-gray-200">اليومية العصرية لبوعياد</p>
         <div class="links flex border-t-2 border-t-gray-900 dark:border-t-gray-200 border-dashed gap-4 justify-center pt-4 mt-4 mx-auto">
           <NuxtLink v-for="link in links" :to=link.url :class="!link.isPublished ? 'unpublished' : null">
-            <WebIcon v-if="link.name === 'web'"/>
-            <FirefoxIcon v-if="link.name === 'firefox'"/>
-            <EdgeIcon v-if="link.name === 'edge'"/>
-            <ChromeIcon v-if="link.name === 'chrome'"/>
           </NuxtLink>
         </div>
       </div>
