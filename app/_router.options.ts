@@ -12,6 +12,11 @@ export default <RouterOptions>{
             name: 'firefox',
             redirect: to => { window.location.href = "https://addons.mozilla.org/en-US/firefox/addon/bouayadapp-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B5%D8%B1%D9%8A%D8%A9/" },
         },
+        // {
+        //     path: '/chrome',
+        //     name: 'chrome',
+        //     redirect: to => { window.location.href = "" },
+        // },
         {
             path: '/edge',
             name: 'edge',
