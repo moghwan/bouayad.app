@@ -16,18 +16,23 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import WebIcon from '@/assets/svg/web.vue';
 import FirefoxIcon from '@/assets/svg/browser-firefox.vue';
 import EdgeIcon from '@/assets/svg/browser-edge.vue';
 import ChromeIcon from '@/assets/svg/browser-chrome.vue';
 
-const links = [
-  {"name": "web",     "url": "/web",      "isPublished": true},
-  {"name": "firefox", "url": "/firefox",  "isPublished": true},
-  {"name": "edge",    "url": "/edge",     "isPublished": true},
-  {"name": "chrome",  "url": "#",   "isPublished": false},
-];
+export default {
+  setup() {
+    const links = [
+      {"name": "web",     "url": "/web",      "isPublished": true},
+      {"name": "firefox", "url": "/firefox",  "isPublished": true},
+      {"name": "edge",    "url": "/edge",     "isPublished": true},
+      {"name": "chrome",  "url": "#",   "isPublished": false},
+    ];   
+    return { links }
+  }
+}
 </script>
 
 <style scoped>
