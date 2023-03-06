@@ -26,7 +26,7 @@ const links = [
   {"name": "web",     "url": "https://web.bouayad.app",      "isPublished": true},
   {"name": "firefox", "url": "https://addons.mozilla.org/en-US/firefox/addon/bouayadapp-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B5%D8%B1%D9%8A%D8%A9/",  "isPublished": true},
   {"name": "edge",    "url": "https://microsoftedge.microsoft.com/addons/detail/bouayadapp-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B5/hjkanamopcgpejnjckfkocleokagaeak",     "isPublished": true},
-  {"name": "chrome",  "url": "#",   "isPublished": false},
+  {"name": "chrome",  "url": "https://chrome.google.com/webstore/detail/bouayadapp-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B5%D8%B1%D9%8A/homjiaebdnpmepkeiiipamadbbpkgcij",   "isPublished": true},
 ];
 </script>
 
