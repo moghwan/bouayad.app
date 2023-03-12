@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1.0',
-            title: 'اليومية العصرية',
+            title: 'اليومية العصرية لبوعياد',
             meta: [
                 { name: 'description', content: 'اليومية العصرية للحاج بوعياد هي يومية من التراث المغربي تحتوي على مجموعة من الاحاديث والآيات القرآنية اضافة الى فوائد طبية وأقوال مأثورة' },
                 { name: 'msapplication-TileColor', content: '#1c6598' },
