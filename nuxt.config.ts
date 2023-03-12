@@ -24,11 +24,11 @@ export default defineNuxtConfig({
                 { name: 'theme-color', content: '#1c6598' },
             ],
             link: [
-                { rel: 'apple-touch-icon', sizes: '180x180' , href: '~/assets/img/icons/apple-touch-icon.png' },
-                { rel: 'icon', type: 'image/x-icon', href: '~/assets/img/icons/favicon.ico' },
-                { rel: 'icon', type: 'image/png', sizes: '32x32', href: '~/assets/img/icons/favicon-32x32.png' },
-                { rel: 'icon', type: 'image/png', sizes: '16x16', href: '~/assets/img/icons/favicon-16x16.png' },
-                { rel: 'mask-icon', color: '#ffffff', href: '~/assets/img/icons/safari-pinned-tab.svg' },
+                { rel: 'apple-touch-icon', sizes: '180x180' , href: '/apple-touch-icon.png' },
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon-32x32.png' },
+                { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+                { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+                { rel: 'mask-icon', color: '#ffffff', href: '/safari-pinned-tab.svg' },
             ]
         }
     }
