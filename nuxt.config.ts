@@ -7,6 +7,9 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    plugins: [
+      { src: '~/plugins/vercel.js', mode: 'client' }
+    ],
     routeRules: {
         '/web': { redirect: 'https://web.bouayad.app' },
         '/firefox': { redirect: 'https://addons.mozilla.org/en-US/firefox/addon/bouayadapp-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B5%D8%B1%D9%8A%D8%A9/' },
