@@ -26,9 +26,8 @@
 </template>
 
 <script setup>
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/vue/20/solid'
 
-const { image, additionalClasses } = defineProps({
+const { image, additionalClasses, features } = defineProps({
   image : {
     type: String,
     required: true
@@ -37,24 +36,11 @@ const { image, additionalClasses } = defineProps({
     type: String,
     required: false,
   },
+  features : {
+    type: Array,
+    required: false,
+    default: [],
+  }
 })
 
-const features = [
-  {
-    name: 'Push to deploy.',
-    description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: 'SSL certificates.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-    icon: LockClosedIcon,
-  },
-  {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-    icon: ServerIcon,
-  },
-]
 </script>
