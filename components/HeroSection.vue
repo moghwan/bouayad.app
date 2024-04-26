@@ -7,18 +7,18 @@
     </div>
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-      <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-4xl tracking-tight text-gray-700 sm:text-6xl">اليومية العصرية لبوعياد</h2>
-        <p class="mt-6 text-lg leading-8 text-gray-600">يومية من التراث المغربي</p>
+      <div class="mx-auto max-w-2xl lg:mx-0 ff-arabic-style">
+        <p class="mt-6 text-lg leading-8 text-gray-600">{{ subtitle }}</p>
+        <h2 class="text-4xl tracking-tight text-gray-700 sm:text-6xl">{{ title }}</h2>
       </div>
       <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-gray-700 sm:grid-cols-2 md:flex lg:gap-x-10">
+        <div v-if="links" class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-gray-700 sm:grid-cols-2 md:flex lg:gap-x-10">
           <a v-for="link in links" :key="link.name" :href="link.href">{{ link.name }} <span aria-hidden="true">&rarr;</span></a>
         </div>
         <dl class="mt-16 grid grid-cols-2 sm:mt-20 sm:grid-cols-4 lg:grid-cols-6">
           <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-gray-600">{{ stat.name }}</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-gray-700">{{ stat.value }}</dd>
+            <dt class="text-base leading-7 text-slate-500">{{ stat.name }}</dt>
+            <dd class="text-2xl font-bold leading-9 tracking-tight text-slate-500">{{ stat.value }}</dd>
           </div>
         </dl>
       </div>
@@ -27,23 +27,17 @@
 </template>
 
 <script setup>
-const { image } = defineProps({
+const { image, features } = defineProps({
   image : {
     type: String,
     required: true
   },
+  features : {
+    type: Object,
+    required: true
+  },
 })
 
-const links = [
-  { name: 'Open roles', href: '#' },
-  { name: 'Internship program', href: '#' },
-  { name: 'Our values', href: '#' },
-  { name: 'Meet our leadership', href: '#' },
-]
-const stats = [
-  { name: 'Offices worldwide', value: '12' },
-  { name: 'Full-time colleagues', value: '300+' },
-  { name: 'Hours per week', value: '40' },
-  { name: 'Paid time off', value: 'Unlimited' },
-]
+const { title, subtitle, links, stats } = features ;
+
 </script>

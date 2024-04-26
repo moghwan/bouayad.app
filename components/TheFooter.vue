@@ -5,7 +5,7 @@
   <footer class="bg-gray-800">
     <div class="max-w-7xl mx-auto sm:px-6 p-8">
       <p class="my-4 text-center text-base text-gray-300">2023-2024 BouayadApp. Made with ❤️ in Morocco.</p>
-      <p class="my-4 text-center text-base text-gray-300">سياسة الخصوصية</p>
+<!--      <p class="my-4 text-center text-base text-gray-300">سياسة الخصوصية</p>-->
       <div class="flex justify-center space-x-6 lg:order-2 pb-6">
         <a target="_blank" href="https://twitter.com/bouayadapp" class="text-gray-100">
           <span class="sr-only">Twitter</span>

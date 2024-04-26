@@ -11,10 +11,10 @@
           <Bars3Icon class="h-6 w-6" aria-hidden="true" />
         </button>
       </div>
-      <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">عن المشروع</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">بعض الأرقام</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">تنزيل</a>
+      <PopoverGroup class="hidden lg:flex lg:gap-x-12 ff-arabic-style">
+        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">عن المشروع</a>
+        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">بعض الأرقام</a>
+        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">تنزيل</a>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
 
