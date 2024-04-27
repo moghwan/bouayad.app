@@ -7,6 +7,7 @@
       :description="'الجديدة كليا على الويب'"
       :features=featuresWeb
       :image=imageWeb
+      :textToRight="true"
       :additional-classes="'w-[48rem] order-1 lg:ml-12 shadow-xl'" />
   <feature-one
       :subTitle="'ببساطتها'"

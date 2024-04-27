@@ -17,8 +17,8 @@
         </div>
         <dl class="mt-16 grid grid-cols-2 sm:mt-20 sm:grid-cols-4 lg:grid-cols-6">
           <div v-for="stat in stats" :key="stat.name" class="flex flex-col-reverse">
-            <dt class="text-base leading-7 text-slate-500">{{ stat.name }}</dt>
-            <dd class="text-2xl font-bold leading-9 tracking-tight text-slate-500">{{ stat.value }}</dd>
+            <dt class="text-base text-center leading-7 text-slate-500">{{ stat.name }}</dt>
+            <dd class="text-2xl text-center font-bold leading-9 tracking-tight text-slate-500">{{ stat.value }}</dd>
           </div>
         </dl>
       </div>
