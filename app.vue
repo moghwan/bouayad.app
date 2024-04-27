@@ -24,7 +24,10 @@
 import imageWeb from '@/assets/img/screenshots/web.png';
 import imageExt from '@/assets/img/screenshots/ext.png';
 import imageMobileFull from '@/assets/img/screenshots/mobile-full.png';
-import { ArrowPathIcon, InboxIcon, CalendarDaysIcon, FingerPrintIcon, ClockIcon, DevicePhoneMobileIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
+import { ArrowPathIcon, InboxIcon, CalendarDaysIcon, ClockIcon, DevicePhoneMobileIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
+import FirefoxOutline from '@/assets/svg/firefox-outline.vue';
+import ChromeOutline from '@/assets/svg/chrome-outline.vue';
+import EdgeOutline from '@/assets/svg/edge-outline.vue';
 
 const featuresHero = {
     title: 'اليومية العصرية : من التراث المغربي',
@@ -73,24 +76,18 @@ const featuresExt = [
   {
     name: 'Push to deploy',
     description: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: InboxIcon,
+    icon: ChromeOutline,
   },
   {
     name: 'SSL certificates',
     description: 'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: ClockIcon,
-  },
-  {
-    name: 'Simple queues',
-    description:
-        'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+    icon: EdgeOutline,
   },
   {
     name: 'Advanced security',
     description:
         'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
+    icon: FirefoxOutline,
   },
 ]
 </script>
