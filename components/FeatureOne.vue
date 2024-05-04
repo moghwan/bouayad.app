@@ -12,8 +12,8 @@
 <!--            <p class="mt-6 text-lg leading-8 text-gray-600">{{ description }}</p>-->
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
               <div v-for="feature in features" :key="feature.name" class="relative pl-9">
-                <dt class="inline font-semibold text-gray-900">
-                  <component :is="feature.icon" :class="textToRight ? '-right-7' : 'left-1'" class="absolute top-1 h-5 w-5 text-[#1c6598]" aria-hidden="true" />
+                <dt class="inline font-semibold text-gray-900 mr-2">
+                  <component :is="feature.icon" :class="textToRight ? '-right-4' : 'left-1'" class="absolute top-1 h-5 w-5 text-[#1c6598]" aria-hidden="true" />
                   {{ feature.name }}
                 </dt>
                 {{ ' ' }}
