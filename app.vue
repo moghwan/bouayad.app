@@ -79,25 +79,25 @@ const featuresExt = [
   {
     name: 'Chrome Web Store',
     icon: ChromeOutline,
-    bgColor: '#1771e6',
+    bgColor: 'blue-600',
     link: '/chrome',
   },
   {
     name: 'Edge Add-ons',
     icon: EdgeOutline,
-    bgColor: '#0072C9',
+    bgColor: 'sky-600',
     link: '/edge',
   },
   {
     name: 'Firefox Add-ons',
     icon: FirefoxOutline,
-    bgColor: '#01c9d8',
+    bgColor: 'cyan-500',
     link: '/firefox',
   },
   {
     name: 'Web / PWA',
     icon: DevicePhoneMobileIcon,
-    bgColor: '#777777',
+    bgColor: 'neutral-500',
     link: '/web',
   }
   ];

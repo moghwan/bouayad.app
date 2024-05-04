@@ -15,7 +15,7 @@
               target="_blank"
               :to=feature.link
           >
-            <div class="flex h-10 w-10 items-center justify-center rounded-lg" :class="`bg-[${feature.bgColor}]`">
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg ddd" :class="`bg-${feature.bgColor}`">
               <component :is="feature.icon" class="h-6 w-6 text-white" aria-hidden="true" />
             </div>
             <span class="font-bold">
