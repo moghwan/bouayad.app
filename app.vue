@@ -16,7 +16,10 @@
       :features=featuresMobile
       :image=imageMobileFull
       :additional-classes="'w-[28rem] lg:ml-12'" />
-  <feature-zero :features=featuresExt />
+  <feature-zero
+      :title="'متاح على'"
+      :features=featuresExt
+  />
   <the-footer/>
 </template>
 
@@ -24,7 +27,7 @@
 import imageWeb from '@/assets/img/screenshots/web.png';
 import imageExt from '@/assets/img/screenshots/ext.png';
 import imageMobileFull from '@/assets/img/screenshots/mobile-full.png';
-import { ArrowPathIcon, InboxIcon, CalendarDaysIcon, ClockIcon, DevicePhoneMobileIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
+import { GlobeAltIcon, InboxIcon, CalendarDaysIcon, ClockIcon, DevicePhoneMobileIcon, CubeTransparentIcon } from '@heroicons/vue/24/outline'
 import FirefoxOutline from '@/assets/svg/firefox-outline.vue';
 import ChromeOutline from '@/assets/svg/chrome-outline.vue';
 import EdgeOutline from '@/assets/svg/edge-outline.vue';
@@ -74,22 +77,30 @@ const featuresMobile = [
 
 const featuresExt = [
   {
-    name: 'Push to deploy',
-    description: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+    name: 'Chrome Web Store',
     icon: ChromeOutline,
+    bgColor: '#1771e6',
+    link: '/chrome',
   },
   {
-    name: 'SSL certificates',
-    description: 'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+    name: 'Edge Add-ons',
     icon: EdgeOutline,
+    bgColor: '#0072C9',
+    link: '/edge',
   },
   {
-    name: 'Advanced security',
-    description:
-        'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+    name: 'Firefox Add-ons',
     icon: FirefoxOutline,
+    bgColor: '#01c9d8',
+    link: '/firefox',
   },
-]
+  {
+    name: 'Web / PWA',
+    icon: DevicePhoneMobileIcon,
+    bgColor: '#777777',
+    link: '/web',
+  }
+  ];
 </script>
 
 <style scoped>
