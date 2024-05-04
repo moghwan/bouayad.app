@@ -8,6 +8,12 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./app.vue",
   ],
+  safelist: [
+    {
+      pattern: /bg-+/, // You can display all the colors that you need
+      variants: ['lg', 'hover', 'focus', 'lg:hover'],      // Optional
+    },
+  ],
   theme: {
     extend: {},
   },
