@@ -12,15 +12,18 @@
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12 ff-arabic-style">
-        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">عن المشروع</a>
-        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">بعض الأرقام</a>
-        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">تنزيل</a>
+        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">
+          <b-a-icon />
+        </a>
+<!--        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">عن المشروع</a>-->
+<!--        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">بعض الأرقام</a>-->
+<!--        <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">تنزيل</a>-->
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
 
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">BouayadApp</span>
-          <b-a-icon />
+<!--          <b-a-icon />-->
         </a>
 
       </div>
@@ -41,9 +44,12 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">عن المشروع</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">بعض الأرقام</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+              <a href="#" class="text-3xl font-semibold leading-6 text-gray-700">
+                <b-a-icon />
+              </a>
+<!--              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">عن المشروع</a>-->
+<!--              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">بعض الأرقام</a>-->
+<!--              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>-->
             </div>
             <div class="py-6">
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
