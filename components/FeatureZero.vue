@@ -11,7 +11,10 @@
           <NuxtLink
               v-for="feature in features"
               :key="feature.name"
-              class="relative pl-6 content-center flex gap-6 items-center border-t-[#4ca4e2] border-l-[#4ca4e2] border-b-[#1c6598] border-r-[#1c6598] border-2 p-4 rounded-br-3xl rounded-tl-3xl bg-zinc-50 hover:bg-[#1c6598] hover:border-t-zinc-900 hover:border-l-zinc-900 hover:border-b-zinc-200 hover:border-r-zinc-200 hover:gap-5 transition-all hover:text-white duration-300 ease-in-out shadow-zinc-400 shadow-sm hover:shadow-md hover:drop-shadow-xl"
+              class="relative pl-6 p-4 content-center flex items-center transition-all duration-200 ease-in-out border gap-6
+                rounded-lg hover:rounded-xl
+                bg-zinc-50 hover:bg-blue-50
+                shadow-sm hover:shadow-md"
               target="_blank"
               :to=feature.link
           >
